@@ -5,26 +5,25 @@
 }
 
 body {
+    margin: 50px;
     font-family: 'Montserrat', sans-serif;
     background-color: #333;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 section {
+    display: flex;
     margin: 20px 0;
-    height: 400px;
-    background-color: #789;
+    height: 300px;
+    border: 5px solid black;
 }
 
 .square {
-    width: 150px;
-    height: 150px;
-    line-height: 150px;
+    width: 200px;
     text-align: center;
 }
 
 .one {
-
     background-color: gold;
 }
 
@@ -42,21 +41,10 @@ section {
 
 .first{
     display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.second{
-    display: flex;
     flex-direction: column;
-    align-items: flex-end;
-    flex-wrap: wrap;
-    justify-content: flex-end;
+    
+}
+.first, .two, .four {
+    flex-grow: 1;
 }
 
-.third{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: row-reverse;
-}
