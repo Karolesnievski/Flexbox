@@ -7,28 +7,56 @@
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: #333;
+    font-size: 50px;
+}
+
+section {
+    margin: 20px 0;
+    height: 400px;
+    background-color: #789;
 }
 
 .square {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 200px;
-    height: 200px;
-    font-size: 50px;
-    background-color: gold;
-    border: 3px solid black;
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
 }
 
-.one{
-    display: flex;
+.one {
+
+    background-color: gold;
 }
-.two{
+
+.two {
+    background-color: lime;
+}
+
+.three {
+    background-color: royalblue;
+}
+
+.four {
+    background-color: tomato;
+}
+
+.first{
     display: flex;
-    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+}
+
+.second{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
     flex-wrap: wrap;
+    justify-content: flex-end;
 }
-.three{
+
+.third{
     display: flex;
-    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
 }
