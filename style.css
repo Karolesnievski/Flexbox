@@ -44,7 +44,16 @@ section {
     flex-direction: column;
     
 }
-.first, .two, .four {
+.first > .two {
+    flex-grow: 1;
+}
+.first > .four {
     flex-grow: 1;
 }
 
+.second{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: space-evenly;
+}
